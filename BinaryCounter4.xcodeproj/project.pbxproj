@@ -15,6 +15,7 @@
 		33D0001A1FB650C600F8490C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33D000181FB650C600F8490C /* LaunchScreen.storyboard */; };
 		33D000251FB650C600F8490C /* BinaryCounter4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D000241FB650C600F8490C /* BinaryCounter4Tests.swift */; };
 		33D000301FB650C600F8490C /* BinaryCounter4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D0002F1FB650C600F8490C /* BinaryCounter4UITests.swift */; };
+		33D0003E1FB6539E00F8490C /* BinaryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D0003D1FB6539E00F8490C /* BinaryTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		33D0002B1FB650C600F8490C /* BinaryCounter4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BinaryCounter4UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33D0002F1FB650C600F8490C /* BinaryCounter4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryCounter4UITests.swift; sourceTree = "<group>"; };
 		33D000311FB650C600F8490C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33D0003D1FB6539E00F8490C /* BinaryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				33D000181FB650C600F8490C /* LaunchScreen.storyboard */,
 				33D0001B1FB650C600F8490C /* Info.plist */,
 				33D000131FB650C600F8490C /* BinaryCounter4.xcdatamodeld */,
+				33D0003D1FB6539E00F8490C /* BinaryTableViewCell.swift */,
 			);
 			path = BinaryCounter4;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33D0003E1FB6539E00F8490C /* BinaryTableViewCell.swift in Sources */,
 				33D0000F1FB650C600F8490C /* ViewController.swift in Sources */,
 				33D0000D1FB650C600F8490C /* AppDelegate.swift in Sources */,
 				33D000151FB650C600F8490C /* BinaryCounter4.xcdatamodeld in Sources */,
